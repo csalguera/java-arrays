@@ -51,3 +51,47 @@ public class Newsfeed {
 
     For now, run the code to see some of our method calls.
 
+## Creating an Array Explicitly
+
+```
+public class Newsfeed {
+  
+  
+  public Newsfeed(){
+    
+  }
+  
+  // Create getTopics() below:
+  
+
+  public static void main(String[] args){
+    Newsfeed sampleFeed = new Newsfeed();
+    /*
+    String[] topics = sampleFeed.getTopics();
+    System.out.println(topics);
+    */
+  }
+}
+```
+
+1. We have an empty Newsfeed class that does not store anything yet.
+
+    First, make a method called getTopics(), which:
+
+* is public
+* returns a String array
+* does not take any parameters
+* For now, leave the method empty.
+
+2. Inside the getTopics() method, create a String array called topics and set it equal to an array containing these elements, in order:
+
+```
+Opinion
+Tech
+Science
+Health
+```
+
+* Then, return topics from the method!
+
+3. Uncomment the lines in the main method to see how the getTopics() method works on a Newsfeed instance.
