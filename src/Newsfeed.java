@@ -1,10 +1,4 @@
-## Java Arrays
-
-## Introduction
-
-```
 public class Newsfeed {
-  
   String[] trendingArticles;
   int[] views;
   double[] ratings;
@@ -45,9 +39,3 @@ public class Newsfeed {
     robotTimes.changeRating(3, 5);
   }
 }
-```
-
-1. In **Newsfeed.java**, we have created a `Newsfeed` class to keep track of trending articles and their associated views and ratings. We did this using Java arrays, which you’ll learn about throughout the lesson!
-
-    For now, run the code to see some of our method calls.
-
