@@ -311,3 +311,24 @@ public class Newsfeed {
 
     Now, run the `Newsfeed.java` file with the argument `"Human"`.
 
+**Note:** For this exercise you will need to run the Newsfeed.java file
+
+To do so, you must `change` into your `bin` directory:
+
+```
+cd ./bin
+```
+
+Once inside of your `bin` directory you will need to `run` the program:
+
+```
+java Newsfeed <argument>
+```
+
+Replace the `argument` field with `"Human"` or `"Robot"`
+
+Once completed `change` back into your `parent` directory:
+
+```
+cd ..
+```
