@@ -1,5 +1,16 @@
 ## Java Arrays
 
+## Contents
+
+* [Introduction](https://github.com/csalguera/java-arrays#introduction)
+* [Creating an Array Explicitly](https://github.com/csalguera/java-arrays#creating-an-array-explicitly)
+* [Importing Arrays](https://github.com/csalguera/java-arrays#importing-arrays)
+* [Get Element By Index](https://github.com/csalguera/java-arrays#get-element-by-index)
+* [Creating an Empty Array](https://github.com/csalguera/java-arrays#creating-an-empty-array)
+* [Length](https://github.com/csalguera/java-arrays#length)
+* [String[] args](https://github.com/csalguera/java-arrays#string-args)
+* [Review](https://github.com/csalguera/java-arrays#review)
+
 ## Introduction
 
 ```
