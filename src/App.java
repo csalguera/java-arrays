@@ -166,5 +166,17 @@ public class App {
      * 
      * String is a reference to an object so a String[] array will be initialized with null values
      */
+
+    /*
+     * ------
+     * Length
+     * ------
+     * 
+     * If we have an array storing all the usernames for our program and we want to quickly see how many users we have, we can access the length field of the array object:
+     */
+
+    System.out.println(menuItems.length);
+    // Prints the length of the array:
+    // 5
   }
 }

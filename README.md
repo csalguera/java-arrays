@@ -228,3 +228,36 @@ public class Newsfeed {
 2. Inside the method `setFavoriteArticle()`, set the value of the `favoriteArticles` array at index `favoriteIndex` to be the value of `newArticle`.
 
     For example, if I called `setFavoriteArticle(2, "Celebrity Hands Throughout the Decades")`, the value of `favoriteArticles` at index `2` would be set to `"Celebrity Hands Throughout the Decades"`.
+
+## Length
+
+```
+import java.util.Arrays;
+
+public class Newsfeed {
+  
+  String[] topics = {"Opinion", "Tech", "Science", "Health"};
+  int[] views = {0, 0, 0, 0};
+  
+  public Newsfeed(){
+
+  }
+    
+  public String[] getTopics(){
+    return topics;
+  }
+  
+  public int getNumTopics(){
+    
+  }
+  
+  public static void main(String[] args){
+    Newsfeed sampleFeed = new Newsfeed();
+    
+    System.out.println("The number of topics is "+ sampleFeed.getNumTopics());
+   
+  }
+}
+```
+
+1. In the method `getNumTopics()`, return the length of the `topics` array.
