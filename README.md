@@ -225,6 +225,6 @@ public class Newsfeed {
 
     In the constructor for `Newsfeed`, set `favoriteArticles` to be a new empty `String` array of size 10.
 
-2. Inside the method setFavoriteArticle(), set the value of the favoriteArticles array at index favoriteIndex to be the value of newArticle.
+2. Inside the method `setFavoriteArticle()`, set the value of the `favoriteArticles` array at index `favoriteIndex` to be the value of `newArticle`.
 
-    For example, if I called setFavoriteArticle(2, "Celebrity Hands Throughout the Decades"), the value of favoriteArticles at index 2 would be set to "Celebrity Hands Throughout the Decades".
+    For example, if I called `setFavoriteArticle(2, "Celebrity Hands Throughout the Decades")`, the value of `favoriteArticles` at index `2` would be set to `"Celebrity Hands Throughout the Decades"`.

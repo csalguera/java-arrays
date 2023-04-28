@@ -7,14 +7,11 @@ public class Newsfeed {
   String[] favoriteArticles;
   
   public Newsfeed(){
-    // Initialize favoriteArticles here:
-    
+    favoriteArticles = new String[10];
   }
   
   public void setFavoriteArticle(int favoriteIndex, String newArticle){
-    // Add newArticle to favoriteArticles:
-    
-    
+    favoriteArticles[favoriteIndex] = newArticle;
   }
     
   public static void main(String[] args){
