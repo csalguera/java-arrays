@@ -325,7 +325,7 @@ Once inside of your `bin` directory you will need to `run` the program:
 java Newsfeed <argument>
 ```
 
-Replace the `argument` field with `"Human"` or `"Robot"`
+Replace the `<argument>` field with `"Human"` or `"Robot"`
 
 Once completed `change` back into your `parent` directory:
 
@@ -357,8 +357,22 @@ Sam
 Koma
 ```
 
-2. Now, we’re going to store the averages on the most recent math test. Create an array called mathScores and set it to an empty array of size 4. It should hold doubles.
+2. Now, we’re going to store the averages on the most recent math test. Create an array called `mathScores` and set it to an empty array of size 4. It should hold `double`s.
 
-3. Sade got a 94.5 on the test. Store this value in the 0th index of the mathScores array.
+3. Sade got a 94.5 on the test. Store this value in the 0th index of the `mathScores` array.
 
-4. Sam got a 76.8 on the test. Store this value in the appropriate spot in the mathScores array.
+4. Sam got a 76.8 on the test. Store this value in the appropriate spot in the `mathScores` array.
+
+5. Write a print statement to say:
+
+```
+The number of students in the class is <numStudents>.
+```
+
+* with `<numStudents>` replaced by the length of the `students` array.
+
+    For example, if the array has 7 elements, the printout should read:
+
+```
+The number of students in the class is 7.
+```
