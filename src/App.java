@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class App {
   public static void main(String[] args) {
     /*
@@ -49,5 +51,37 @@ public class App {
      */
 
     String[] clothingItems = {"Tank Top", "Beanie", "Funny Socks", "Corduroys"};
+
+    /*
+     * ----------------
+     * Importing Arrays
+     * ----------------
+     * 
+     * When printing out an array, we see a memory address
+     * it does not help determine what is contained within the array
+     * 
+     * To have a more descriptive printout of the array itself, we need a toString() method that is provided by the Arrays package in Java:
+     */
+
+    // import java.util.Arrays;
+
+    /*
+     * This package is imported prior to defining the class
+     * 
+     * When importing a package, all of the methods within the package become available in our code
+     * 
+     * The Arrays package contains methods such as Arrays.toString()
+     * 
+     * When an array is passed into the Arrays.toString() method, we can see the contents of the array printed out:
+     */
+
+    // Array with int data types
+    int[] lotteryNumbers = {4, 8, 15, 16, 23, 42};
+    // Array.toString() method from Arrays package called with previous array passed in as argument
+    String betterPrintout = Arrays.toString(lotteryNumbers);
+    // println() statement with previous String variable as argument
+    System.out.println(betterPrintout);
+    // Prints:
+    // [4, 8, 15, 16, 23, 42]
   }
 }
