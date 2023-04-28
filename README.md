@@ -332,3 +332,33 @@ Once completed `change` back into your `parent` directory:
 ```
 cd ..
 ```
+
+## Review
+
+```
+import java.util.Arrays;
+
+public class Classroom {
+  
+  public static void main(String[] args){
+    
+  }
+}
+```
+
+1. In order to practice the skills you’ve learned throughout the lesson, we’re going to make and use some arrays in the `main()` method of a new `Classroom` class.
+
+    First, inside `main()`, make a `String` array called `students`, and set it equal to the following students, in order:
+
+```
+Sade
+Alexus
+Sam
+Koma
+```
+
+2. Now, we’re going to store the averages on the most recent math test. Create an array called mathScores and set it to an empty array of size 4. It should hold doubles.
+
+3. Sade got a 94.5 on the test. Store this value in the 0th index of the mathScores array.
+
+4. Sam got a 76.8 on the test. Store this value in the appropriate spot in the mathScores array.
