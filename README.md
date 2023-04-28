@@ -175,13 +175,13 @@ public class Newsfeed {
 
     Fill in the `getTopTopic()` method to return the 0th index of the `topics` array.
 
-2. But wait — we added more to the Newsfeed class. Now, each instance starts with an array of zeros called views as an instance field.
+2. But wait — we added more to the `Newsfeed` class. Now, each instance starts with an array of zeros called `views` as an instance field.
 
-    Every time someone views a topic, we want to increment the value of the appropriate field in views.
+    Every time someone views a topic, we want to increment the value of the appropriate field in `views`.
 
-    For example, if someone views an "Opinion" piece, we want to increase the value of the 0th index of views from 0 to 1. If they view it again, we want to increase the value to 2.
+    For example, if someone views an `"Opinion"` piece, we want to increase the value of the 0th index of `views` from `0` to `1`. If they view it again, we want to increase the value to `2`.
 
-    We have written a method signature for viewTopic(), which takes in an int called topicIndex.
+    We have written a method signature for `viewTopic()`, which takes in an `int` called `topicIndex`.
 
-    Inside the method, set the value of the views array at the index topicIndex to the current value plus 1.
+    Inside the method, set the value of the `views` array at the index `topicIndex` to the current value plus `1`.
 

@@ -14,11 +14,11 @@ public class Newsfeed {
   }
   
   public String getTopTopic(){
-    
+    return topics[0];
   }
   
   public void viewTopic(int topicIndex){
-    
+    views[topicIndex] = views[topicIndex] += 1;
   }
 
   public static void main(String[] args){
