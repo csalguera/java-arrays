@@ -105,11 +105,66 @@ public class App {
     /*
      * If we try to access an element outside of its appropriate index range, we will receive an ArrayIndexOutOfBoundsException error:
      */
-    System.out.println(prices[5]);
+
+    // System.out.println(prices[5]);
+
     // Prints:
     // Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 4 at App.main(App.java:108)
 
     // Note: 108, the number after the colon is referring to the line within the code where the error occurs
     // In this case it is line 108 where we try to print out an index that is not within the given index range of the prices array
+
+    /*
+     * -----------------------
+     * Creating an Empty Array
+     * -----------------------
+     * 
+     * We can also create empty arrays
+     * Empty arrays must be initialized with a fixed size:
+     */
+
+    String[] menuItems = new String[5];
+
+    /*
+     * Once the length of the array has been declared, it cannot be manipulated
+     * 
+     * Each index of the array can be set equal to a value:
+     */
+
+    menuItems[0] = "Veggie hot dog";
+    menuItems[1] = "Potato salad";
+    menuItems[2] = "Cornbread";
+    menuItems[3] = "Roasted broccoli";
+    menuItems[4] = "Coffee ice cream";
+
+    System.out.println(Arrays.toString(menuItems));
+    // Prints:
+    // [Veggie hot dog, Potato salad, Cornbread, Roasted broccoli, Coffee ice cream]
+
+    /*
+     * This has the same effect as initializing the array with the values
+     * 
+     * We can change the value at an index:
+     */
+
+    menuItems[3] = "Baked cauliflower";
+
+    System.out.println(Arrays.toString(menuItems));
+    // Now prints "Baked cauliflower" instead of "Roasted broccoli":
+    // [Veggie hot dog, Potato salad, Cornbread, Baked cauliflower, Coffee ice cream]
+
+    /*
+     * When we use the new keyword to create an empty array, each element is initialized with a default value based on the data type the array is initialized with
+     * 
+     * Data Type    Initialized Value
+     * int          0
+     * double       0.0
+     * boolean      false
+     * Reference    null
+     * 
+     * Note: These are all falsy values
+     * 
+     * String is a reference to an object so a String[] array will be initialized with null values
+     */
   }
 }
