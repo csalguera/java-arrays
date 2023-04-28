@@ -44,7 +44,7 @@ public class App {
      * This allows us to explicitly initialize the array to contain the data we want to store:
      */
 
-    double[] prices = {13, 15, 15.87, 14.22, 16.66};
+    // double[] prices = {13, 15, 15.87, 14.22, 16.66};
 
     /*
      * We can use arrays to hold String values and other objects as well as primitives:
@@ -83,5 +83,33 @@ public class App {
     System.out.println(betterPrintout);
     // Prints:
     // [4, 8, 15, 16, 23, 42]
+
+    /*
+     * --------------------
+     * Get Element By Index
+     * --------------------
+     * 
+     * Now that we have declared an array, we want to be able to get values out of it
+     * 
+     * We use square brackets to access data at a certain index:
+     */
+
+    double[] prices = {13.1, 15.87, 14.22, 16.66};
+
+    System.out.println(prices[1]);
+    // Prints index 1 of prices array
+    // Note: the index starts at index 0
+    // Index 0 = 13.1, Index 1 = 15.87, Index 2 = 14.22, Index 3 = 16.66
+    // 15.87 is the value printed out
+
+    /*
+     * If we try to access an element outside of its appropriate index range, we will receive an ArrayIndexOutOfBoundsException error:
+     */
+    System.out.println(prices[5]);
+    // Prints:
+    // Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 4 at App.main(App.java:108)
+
+    // Note: 108, the number after the colon is referring to the line within the code where the error occurs
+    // In this case it is line 108 where we try to print out an index that is not within the given index range of the prices array
   }
 }
